@@ -1,4 +1,5 @@
 # SIN142  Comunicação Indireta
+## Publicar e Assinar
 Objetivos: Nesta aula será abordado os conceitos de comunicação Indireta em Sistemas Distribuídos.
 
 Pre-requisitos: Linux Ubuntu, Kafka, IntelliJ IDE.
