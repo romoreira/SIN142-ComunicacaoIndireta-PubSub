@@ -16,7 +16,7 @@ Pre-requisitos: Linux Ubuntu, Kafka, IntelliJ IDE.
 * `bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092` Crie um Tópico
 * `bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092` Visualize o tópico criado
 ### Vamos escrever algumas mensagens nesse tópico: quickstart-events
-* `bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092` Inicializa a Aplicação Produtora
+4. `bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092` Inicializa a Aplicação Produtora
 A qualquer momento você pode encerrar a aplicação produtora com CRTL + c
 ### Vamos ler as mensagens que são publicadas no tópico: quickstart-events
-* `bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092`
+5. `bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092`
