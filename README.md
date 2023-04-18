@@ -36,3 +36,5 @@ Neste exercício, você criará um pipeline de processamento de dados usando Kaf
 * Consuma dados: crie um consumidor de dados que leia os dados do tópico Kafka e os processe em tempo real. Você pode usar uma ferramenta como o consumidor de linha de comando do Kafka ou escrever seu próprio consumidor usando uma biblioteca cliente Kafka.
 
 Processar dados: Implemente a lógica de processamento de dados no consumidor que conte as letas do alfabeto de todos os textos que são produzidos.\ Ex.: O produtor pode ser uma rotina que cria strings de texto aleatórias e o consumidor lê esse pipeline de dados e faz a contagem de letras.
+
+Grave dados: armazene o resultado da contagem de letras geradas pelo produtor. Ex.: pode ser em um DB, pode ser na saída padrão, isto é, apresentar o resultado da contagem ao vivo.
