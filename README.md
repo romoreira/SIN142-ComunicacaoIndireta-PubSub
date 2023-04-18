@@ -29,12 +29,12 @@ A qualquer momento você pode encerrar a aplicação produtora com CRTL + c
 Exercício: Construir um pipeline de processamento de dados em tempo real usando Kafka.\
 Neste exercício, você criará um pipeline de processamento de dados usando Kafka que ingere dados de uma fonte de dados, os processa em tempo real e grava os resultados em um coletor de dados.
 
-* Configure um cluster Kafka: configure um cluster Kafka com pelo menos um agente e crie um tópico Kafka para armazenar os dados.
+* **Configure um cluster Kafka:** configure um cluster Kafka com pelo menos um agente e crie um tópico Kafka para armazenar os dados.
 
-* Produza dados: crie um produtor de dados que gere dados e os envie para o tópico Kafka. Você pode usar uma ferramenta como o produtor de linha de comando do Kafka ou escrever seu próprio produtor usando uma biblioteca cliente Kafka.
+* **Produza dados:** crie um produtor de dados que gere dados e os envie para o tópico Kafka. Você pode usar uma ferramenta como o produtor de linha de comando do Kafka ou escrever seu próprio produtor usando uma biblioteca cliente Kafka.
 
-* Consuma dados: crie um consumidor de dados que leia os dados do tópico Kafka e os processe em tempo real. Você pode usar uma ferramenta como o consumidor de linha de comando do Kafka ou escrever seu próprio consumidor usando uma biblioteca cliente Kafka.
+* **Consuma dados:** crie um consumidor de dados que leia os dados do tópico Kafka e os processe em tempo real. Você pode usar uma ferramenta como o consumidor de linha de comando do Kafka ou escrever seu próprio consumidor usando uma biblioteca cliente Kafka.
 
-Processar dados: Implemente a lógica de processamento de dados no consumidor que conte as letas do alfabeto de todos os textos que são produzidos.\ Ex.: O produtor pode ser uma rotina que cria strings de texto aleatórias e o consumidor lê esse pipeline de dados e faz a contagem de letras.
+* **Processar dados:** Implemente a lógica de processamento de dados no consumidor que conte as letas do alfabeto de todos os textos que são produzidos.\ Ex.: O produtor pode ser uma rotina que cria strings de texto aleatórias e o consumidor lê esse pipeline de dados e faz a contagem de letras.
 
-Grave dados: armazene o resultado da contagem de letras geradas pelo produtor. Ex.: pode ser em um DB, pode ser na saída padrão, isto é, apresentar o resultado da contagem ao vivo.
+* **Grave dados:** armazene o resultado da contagem de letras geradas pelo produtor. Ex.: pode ser em um DB, pode ser na saída padrão, isto é, apresentar o resultado da contagem ao vivo.
